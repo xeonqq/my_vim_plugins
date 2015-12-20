@@ -12,4 +12,4 @@
 	url = https://github.com/terryma/vim-multiple-cursors
 [submodule "bundle/a.vim"]
 	path = bundle/a.vim
-	url = https://github.com/vim-scripts/a.vim
+	url = https://github.com/vim-scripts/a.vim.git
