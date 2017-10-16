@@ -4,7 +4,7 @@ filetype plugin indent on
 
 set hlsearch
 
-let g:syntastic_python_flake8_args = "--max-line-length=220"
+let g:syntastic_python_flake8_args = "--max-line-length=120"
 
 
 let mapleader = ","
