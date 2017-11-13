@@ -6,7 +6,6 @@ set hlsearch
 
 let g:syntastic_python_flake8_args = "--max-line-length=120"
 
-
 let mapleader = ","
 nnoremap <leader>a :Ack<Space>
 nnoremap <leader>n :NERDTree<CR>
