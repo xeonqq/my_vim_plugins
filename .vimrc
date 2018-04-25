@@ -1,6 +1,8 @@
 execute pathogen#infect()
+call pathogen#helptags()
 syntax on
 filetype plugin indent on
+
 
 set hlsearch
 
@@ -9,6 +11,8 @@ nnoremap <leader>a :Ack<Space>
 nnoremap <leader>n :NERDTree<CR>
 
 nnoremap <silent> <2-LeftMouse> :let @/='\V\<'.escape(expand('<cword>'), '\').'\>'<cr>:set hls<cr>
+
+let g:jedi#usages_command = "<leader>u"
 
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
@@ -36,3 +40,5 @@ function! s:insert_gates()
 endfunction
 autocmd BufNewFile *.{h,hpp} call <SID>insert_gates()
 
+" Enable completion where available.
+let g:ale_completion_enabled = 1
