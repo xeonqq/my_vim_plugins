@@ -42,3 +42,4 @@ autocmd BufNewFile *.{h,hpp} call <SID>insert_gates()
 
 " Enable completion where available.
 let g:ale_completion_enabled = 1
+autocmd FileType c,cpp,hpp,h ClangFormatAutoEnable

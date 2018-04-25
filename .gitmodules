@@ -40,3 +40,6 @@
 [submodule "bundle/tabular"]
 	path = bundle/tabular
 	url = https://github.com/godlygeek/tabular.git
+[submodule "bundle/vim-clang-format"]
+	path = bundle/vim-clang-format
+	url = https://github.com/rhysd/vim-clang-format.git
