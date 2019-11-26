@@ -43,3 +43,6 @@
 [submodule "bundle/tabnine-vim"]
 	path = bundle/tabnine-vim
 	url = https://github.com/zxqfl/tabnine-vim
+[submodule "bundle/delimitMate"]
+	path = bundle/delimitMate
+	url = https://github.com/Raimondi/delimitMate.git
